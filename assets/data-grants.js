@@ -1,0 +1,347 @@
+/* Grants and non-dilutive funding. Verified August 2026. */
+window.GRANTS = [
+
+/* ============ US FEDERAL ============ */
+{n:"Melanoma Academy Scholar Award",org:"US DoD CDMRP",cat:"US Federal",verdict:"DIRECT",amount:"US$770,000 / 3 yrs",timing:"Pre-app 22 Sep 2026",urgent:1,stage:"Research",
+note:"Foreign organisations expressly eligible as prime. Within 7 years of first faculty-level appointment, needs institutional commitment of independent lab space and a melanoma Career Guide mentor. Clinical trials not allowed; preliminary data not required. Must argue relevance to US Service Members or Veterans.",
+tags:["melanoma","open now","best fit"],url:"https://cdmrp.health.mil/funding/mrp"},
+
+{n:"Survivorship Research Award",org:"US DoD CDMRP",cat:"US Federal",verdict:"DIRECT",amount:"US$1,020,000 / 3 yrs",timing:"Pre-app 22 Sep 2026",urgent:1,stage:"Research",
+note:"Lower eligibility bar than the Scholar Award: Assistant Professor or equivalent, no lab-space requirement. Survivorship is one of only three FY26 focus areas. Same military relevance requirement.",
+tags:["melanoma","open now"],url:"https://cdmrp.health.mil/funding/mrp"},
+
+{n:"Melanoma Idea Award",org:"US DoD CDMRP",cat:"US Federal",verdict:"DIRECT",amount:"US$560,000 / 2 yrs",timing:"Full app 14 Oct 2026",urgent:1,stage:"Research",
+note:"Pre-application closed 13 July 2026. Plan for FY27. No clinical trials permitted under this mechanism.",
+tags:["melanoma"],url:"https://cdmrp.health.mil/funding/mrp"},
+
+{n:"Melanoma Team Science Award",org:"US DoD CDMRP",cat:"US Federal",verdict:"DIRECT",amount:"US$2,100,000 / 3 yrs",timing:"Full app 14 Oct 2026",urgent:1,stage:"Research",
+note:"Two to three partnering PIs, each at or above Assistant Professor. Pre-application closed. FY26 appropriation for the whole Melanoma Research Program is US$40 million.",
+tags:["melanoma","large"],url:"https://cdmrp.health.mil/funding/mrp"},
+
+{n:"Focused Program Award, Rare Melanomas",org:"US DoD CDMRP",cat:"US Federal",verdict:"DIRECT",amount:"US$2,800,000 / 4 yrs",timing:"Full app 14 Oct 2026",urgent:1,stage:"Research",
+note:"Initiating PI must be Associate Professor or above with minimum 10% effort. Pre-application closed.",
+tags:["melanoma","large"],url:"https://cdmrp.health.mil/funding/mrp"},
+
+{n:"Rare Cancers Research Program",org:"US DoD CDMRP",cat:"US Federal",verdict:"DIRECT",amount:"FY26 pool US$17.5M",timing:"Rolling mechanisms",stage:"Research",
+note:"UNVERIFIED whether rare melanoma subtypes (acral, mucosal, uveal) are in scope or carved out to the Melanoma Research Program. Email help@eBRAP.org before investing effort.",
+tags:["verify"],url:"https://cdmrp.health.mil/funding/rcrp"},
+
+{n:"Peer Reviewed Cancer Research Program",org:"US DoD CDMRP",cat:"US Federal",verdict:"CLOSED",amount:"FY26 pool US$165M",timing:"n/a for melanoma",stage:"Research",
+note:"MELANOMA IS EXPRESSLY EXCLUDED by congressional language, alongside breast, kidney, lung, ovarian, pancreatic, prostate and rare cancer. Looks like the obvious generalist cancer route and is unusable for skin cancer.",
+tags:["misconception"],url:"https://cdmrp.health.mil/prcrp/topicareas/topicareas26"},
+
+{n:"USAMRDC Broad Agency Announcement",org:"USAMRAA",cat:"US Federal",verdict:"DIRECT",amount:"No funding ceiling",timing:"Rolling to 30 Sep 2027",stage:"Research",
+note:"HT9425-23-S-BAA1. International organisations expressly eligible and unusually flexible on budget. No oncology portfolio, so would need a Combat Casualty Care decision-support framing. Two-step: pre-proposal via eBRAP, then invited full proposal.",
+tags:["rolling","no cap"],url:"https://usamraa.health.mil/pages/baa.aspx"},
+
+{n:"PRIMED-AI Model-to-Clinic",org:"NIH Common Fund",cat:"US Federal",verdict:"DIRECT",amount:"US$450k DC/yr then US$1M DC",timing:"19 Oct 2026",urgent:1,stage:"Translation",
+note:"RFA-RM-27-013. Foreign organisations EXPRESSLY eligible. Precision Medicine with AI, integrating imaging with multimodal data. The best structural match in the US system for a melanoma imaging-AI investigator with a large 3D total-body-photography cohort. UG3/UH3, up to 5 years, 6 to 8 awards.",
+tags:["AI","imaging","best fit"],url:"https://www.cancer.gov/research/resources/ai-cancer-research/funding"},
+
+{n:"PRIMED-AI Data-to-Model Academic-Industrial",org:"NIH Common Fund",cat:"US Federal",verdict:"DIRECT",amount:"US$450k then US$800k DC/yr",timing:"19 Oct 2026",urgent:1,stage:"Translation",
+note:"RFA-RM-27-012. Foreign eligible. Must include at least one academic and one industry organisation. A natural pairing for a university plus spin-out structure.",
+tags:["AI","industry"],url:"https://www.cancer.gov/research/resources/ai-cancer-research/funding"},
+
+{n:"R01 and R21 research project grants",org:"NIH",cat:"US Federal",verdict:"DIRECT",amount:"Varies",timing:"Standard cycles",stage:"Research",
+note:"Foreign organisations may be prime on most R-series, but indirect cost recovery is capped at 8% of modified total direct costs versus 50%+ domestic. Must submit detailed, non-modular budgets. That 8% cap is the main reason Australian universities decline to be NIH primes.",
+tags:["8% F&A"],url:"https://grants.nih.gov/new-to-nih/information-for/foreign-grants"},
+
+{n:"Foreign subawards, now linked awards",org:"NIH",cat:"US Federal",verdict:"PARTNER",amount:"Structure change",timing:"From 25 Jan 2026",stage:"Research",
+note:"THE most misunderstood item here. NOT-OD-25-104 abolished foreign subawards in 2025. NOT-OD-25-155 replaced them with linked awards (PF5/UF5 domestic prime plus RF2/UL2 foreign award). You can no longer be a sub on a US colleague's R01. You become a co-equal registered recipient with your own award, payment subaccount and financial reporting, and the US PI must design it in from the start.",
+tags:["policy change","important"],url:"https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-155.html"},
+
+{n:"Proactive Health Mission Office ISO",org:"ARPA-H",cat:"US Federal",verdict:"DIRECT",amount:"Programs US$50-150M shared",timing:"Rolling to 5 Mar 2029",stage:"Translation",
+note:"ARPA-H-SOL-24-106. Best ARPA-H fit: prevention, early detection, prophylaxis, population healthspan. Funded via Other Transactions, not grants, with aggressive milestone gates. First step is always a Solution Summary. ARPA-H prioritises US-performed work, so email international@arpa-h.gov before writing anything.",
+tags:["rolling","AI","early detection"],url:"https://arpa-h.gov/explore-funding/open-funding-opportunities"},
+
+{n:"Scalable Solutions Mission Office ISO",org:"ARPA-H",cat:"US Federal",verdict:"DIRECT",amount:"No published cap",timing:"Rolling to 5 Mar 2029",stage:"Translation",
+note:"ARPA-H-SOL-24-105. Removing technical barriers to equitable, broad adoption of health interventions. Frame as equitable deployment and scaling of AI triage.",
+tags:["rolling","equity"],url:"https://arpa-h.gov/explore-funding/open-funding-opportunities"},
+
+{n:"Health Science Futures ISO",org:"ARPA-H",cat:"US Federal",verdict:"DIRECT",amount:"No published cap",timing:"Rolling to 5 Mar 2029",stage:"Research",
+note:"ARPA-H-SOL-24-104. Overcoming scientific and technological limits blocking future healthcare.",
+tags:["rolling"],url:"https://arpa-h.gov/explore-funding/open-funding-opportunities"},
+
+{n:"Resilient Systems ISO",org:"ARPA-H",cat:"US Federal",verdict:"DIRECT",amount:"No published cap",timing:"Rolling to 5 Mar 2029",stage:"Translation",
+note:"ARPA-H-SOL-24-103. Robust, integrated health care systems. Amended January 2026.",
+tags:["rolling","systems"],url:"https://arpa-h.gov/explore-funding/open-funding-opportunities"},
+
+{n:"PRECISE-AI",org:"ARPA-H",cat:"US Federal",verdict:"CLOSED",amount:"n/a",timing:"Performers selected 2025",stage:"Translation",
+note:"AI model drift and degradation monitoring in clinical deployment. Thematically the closest ARPA-H program to melanoma AI territory. Closed to new proposals, but track for follow-ons and borrow its framing language for a Mission Office Solution Summary.",
+tags:["AI","watch"],url:"https://arpa-h.gov/explore-funding/programs/precise-ai"},
+
+{n:"Biological Technologies Office BAA",org:"DARPA",cat:"US Federal",verdict:"DIRECT",amount:"Accelerated track up to US$2M",timing:"Closes 30 Sep 2026",urgent:1,stage:"Research",
+note:"HR001126S0003. Verified verbatim: both US and non-US sources may propose. Machine Learning and AI is a named topic area. Mandatory abstract first, rolling submission. Accelerated track gives award within 30 days of selection. Export control and program classification are the real gate, not the BAA text. Successor BAA expected after close.",
+tags:["AI","rolling"],url:"https://www.darpa.mil/"},
+
+{n:"Young Faculty Award",org:"DARPA",cat:"US Federal",verdict:"CLOSED",amount:"US$500k to US$1.35M",timing:"n/a",stage:"Research",
+note:"Limited to researchers at US institutions. Circulates widely in Australian research-office newsletters as an early-career prize and is not available to an Australian host. Full stop.",
+tags:["misconception"],url:"https://www.darpa.mil/"},
+
+{n:"SBIR and STTR",org:"NIH",cat:"US Federal",verdict:"CLOSED",amount:"Phase I US$323k, Phase II US$2.15M",timing:"Next receipt 5 Sep 2026",stage:"Company",
+note:"Reauthorised 13 April 2026 through 30 Sept 2031 after a six-month lapse. Requires a US small business more than 50% owned and controlled by US citizens or permanent residents. A US SUBSIDIARY OF AN AUSTRALIAN COMPANY DOES NOT QUALIFY: ownership is traced to natural persons. All research must be performed in the US. New Strategic Breakthrough Awards up to US$30M with 100% matching.",
+tags:["company","misconception"],url:"https://grants.nih.gov/grants/policy/nihgps/HTML5/section_18/18.5.2_eligibility.htm"},
+
+{n:"PCORI awards",org:"PCORI",cat:"US Federal",verdict:"PARTNER",amount:"Varies, methods ~US$750k",timing:"Rolling cycles",stage:"Translation",
+note:"The surprise entry and genuinely underused. Foreign leads permitted with a demanding US-relevance justification, and crucially PCORI has NOT abolished foreign subawards. Cleanest route is subcontractor to a US prime. A comparative-effectiveness or implementation study of AI-assisted skin cancer triage co-led with a US dermatology group is a strong fit and avoids the NIH linked-award machinery entirely.",
+tags:["underused","implementation"],url:"https://www.pcori.org/"},
+
+{n:"BARDA DRIVe EZ-BAA",org:"BARDA / ASPR",cat:"US Federal",verdict:"DIRECT",amount:"Under US$750,000",timing:"Page appears stale",stage:"Translation",
+note:"Genuinely open to foreign applicants: 'Applicants from outside of the United States are eligible to apply.' But the remit is health security and medical countermeasures, so melanoma relevance is near zero. Listed because it appears in Australian round-ups without the caveat.",
+tags:["low fit"],url:"https://drive.hhs.gov/ezbaa.html"},
+
+{n:"NSF research grants",org:"NSF",cat:"US Federal",verdict:"CLOSED",amount:"n/a",timing:"n/a",stage:"Research",
+note:"'NSF rarely provides direct funding support to foreign organizations.' The most common Australian misconception in this directory. NSF international programs fund the US side only; Australian participants are expected to be funded domestically.",
+tags:["misconception"],url:"https://www.nsf.gov/policies/pappg/24-1/ch-1-pre-submission"},
+
+{n:"AHRQ health services research",org:"AHRQ",cat:"US Federal",verdict:"CLOSED",amount:"n/a",timing:"n/a",stage:"Research",
+note:"Foreign organisations not eligible, and non-US components of US organisations also not eligible. Notable because AHRQ is the natural home for health-services, implementation and diagnostic-safety work, and it is shut.",
+tags:["misconception"],url:"https://www.ahrq.gov/"},
+
+{n:"VA research",org:"US Dept of Veterans Affairs",cat:"US Federal",verdict:"CLOSED",amount:"n/a",timing:"n/a",stage:"Research",
+note:"VA research is intramural. Only VA employees can conduct research under VA sponsorship, and the PI must hold a VA appointment. Sometimes misread as accessible because VA co-funds work at university-affiliated medical centres.",
+tags:["closed"],url:"https://www.research.va.gov/funding/"},
+
+/* ============ PHILANTHROPY ============ */
+{n:"Young Investigator Award",org:"Melanoma Research Alliance",cat:"Philanthropy",verdict:"DIRECT",amount:"US$255,000 / 3 yrs",timing:"Checklist 14 Sep 2026",urgent:1,stage:"Research",
+note:"MRA states verbatim that investigators at non-profit institutions outside the United States are eligible. Within first 5 years of first independent faculty appointment; mentor at the same institution required. ZERO indirect costs. One PI may submit only one proposal across ALL MRA mechanisms per cycle. Named priorities include detection and diagnosis, and biomarkers of progression risk in primary melanoma.",
+tags:["melanoma","best fit"],url:"https://www.curemelanoma.org/research/request-for-proposals"},
+
+{n:"Established Investigator Award",org:"Melanoma Research Alliance",cat:"Philanthropy",verdict:"DIRECT",amount:"US$375,000 / 3 yrs",timing:"LOI 21 Aug 2026",urgent:1,stage:"Research",
+note:"Recommended beyond the first 5 years of first faculty appointment. An Academic-Industry Partnership variant exists where the industry partner must match MRA funds in cash or in kind. The 2026-27 RFP contains NO explicit AI priority, so frame AI work as detection or risk-biomarker science rather than as an AI-methods project.",
+tags:["melanoma","imminent"],url:"https://www.curemelanoma.org/research/request-for-proposals"},
+
+{n:"Pilot Award",org:"Melanoma Research Alliance",cat:"Philanthropy",verdict:"DIRECT",amount:"US$100,000 / 2 yrs",timing:"5 Nov 2026",urgent:1,stage:"Research",
+note:"Smallest MRA mechanism. Remember the one-proposal-per-PI rule across all mechanisms. Total MRA commitment for the 2026-27 cycle is at least US$7.9 million.",
+tags:["melanoma"],url:"https://www.curemelanoma.org/research/request-for-proposals"},
+
+{n:"Health Breakthrough Network programs",org:"Wellcome Leap",cat:"Philanthropy",verdict:"DIRECT",amount:"Program-scale contracts",timing:"Per program call",stage:"Translation",
+note:"The most under-exploited option available to an Australian. Not grants: pre-negotiated master agreements (MARFA for academics) mean only a statement of work and budget need negotiating once a call drops, cutting months off start-up. The University of Sydney is ALREADY a network member, alongside UNSW, Monash, Melbourne, UQ, UTS, Deakin, WEHI, Baker and Burnet. Unusually for philanthropy, Leap pays full direct AND certified indirect costs. Funds only against open calls, so monitor and confirm your MARFA status before one drops.",
+tags:["AI","underused","best fit"],url:"https://wellcomeleap.org/programs/"},
+
+{n:"Cancer Grand Challenges",org:"Cancer Research UK and US NCI",cat:"Philanthropy",verdict:"DIRECT",amount:"About US$25M per team",timing:"No open call, watch late 2026",stage:"Research",
+note:"The highest ceiling available. Rules state no more than 70% of activity and funding may be based in a single country, and there is NO requirement for teams to be led by or include UK or US members. Australians can lead. The March 2026 round awarded five teams US$125 million total. Teams form 3 to 6 months BEFORE an EOI deadline, so start conversations now, not when the call drops. A globally distinctive dataset is the entry ticket.",
+tags:["huge","team science"],url:"https://cancergrandchallenges.org/applications"},
+
+{n:"Career Development Award",org:"ASCO Conquer Cancer",cat:"Philanthropy",verdict:"DIRECT",amount:"US$200,000 / 3 yrs",timing:"8 Oct 2026",urgent:1,stage:"Research",
+note:"Applications accepted from US and international applicants. Binding constraint: must be in the FIRST TO FOURTH YEAR of a full-time primary faculty appointment IN A CLINICAL DEPARTMENT at an academic medical institution, with at least 50% time on research. A Level C appointment at a population-health centre may not satisfy this. Must be patient-oriented research. Verify eligibility before committing.",
+tags:["clinician","verify"],url:"https://www.asco.org/career-development/grants-awards/funding-opportunities/career-development-award"},
+
+{n:"CLIP and Technology Impact Awards",org:"Cancer Research Institute",cat:"Philanthropy",verdict:"DIRECT",amount:"Not published",timing:"Varies",stage:"Research",
+note:"CRI states it has no citizenship restrictions for any of its funding programs, and work may be performed abroad at a non-profit institution. Tumour-immunology focused, so melanoma immunotherapy fits superbly while screening and equity work does not. The Immuno-Informatics Fellowship is the computational entry point; CLIP is the mechanism for an established investigator bridging lab and clinic.",
+tags:["melanoma","immunology"],url:"https://www.cancerresearch.org/programs-faqs"},
+
+{n:"Grand Challenges",org:"Gates Foundation",cat:"Philanthropy",verdict:"DIRECT",amount:"US$100k Phase I",timing:"Per challenge call",stage:"Research",
+note:"'There is no geographical restriction for applicants.' No indirect costs on Phase I. Be realistic: the remit is LMIC global health and melanoma in fair-skinned Australians sits outside it. Two authentic bridges exist: cost-disruptive diagnosis and screening tools for low-resource settings, and data-science capacity for public health. Algorithm equity across skin tones has a legitimate global-health argument. A straight melanoma-in-Australia proposal will not work.",
+tags:["equity","global health"],url:"https://gcgh.grandchallenges.org/challenges"},
+
+{n:"Clinical Cancer Research",org:"Rising Tide Foundation",cat:"Philanthropy",verdict:"DIRECT",amount:"Not published",timing:"LOI 23 Nov 2026",urgent:1,stage:"Clinical",
+note:"Funding available to institutions worldwide. Funds Phase I to III interventional trials in detection, treatment and implementation. Does not fund basic research, Phase IV or observational studies. Note the deliberate carve-out: pre-clinical validation is considered ONLY for early cancer detection applications, which is exactly the gap an AI early-detection validation study could occupy. Patient-partner involvement in protocol design is mandatory.",
+tags:["trials","detection"],url:"https://www.risingtide-foundation.org/clinical-cancer-research-how-to-apply/"},
+
+{n:"Research Grants",org:"LEO Foundation",cat:"Philanthropy",verdict:"CLOSED",amount:"DKK 2 to 4M",timing:"Round 3, 25 Aug 2026",stage:"Research",
+note:"THE key correction in this directory. LEO is dermatology-specific and globally open, so it looks like the obvious fit. Its Application Guide explicitly excludes 'projects on skin cancer (e.g., melanoma, CTCL, BCC and SCC), at present'. Skin cancer models are permitted only as tools to study other aspects of skin biology. This is a hard exclusion, not a soft preference. Only a genuine non-oncology dermatology project qualifies.",
+tags:["dermatology","misconception"],url:"https://leo-foundation.org/en/grants-and-awards/research-grants/"},
+
+{n:"Discovery and Career Development Awards",org:"Wellcome Trust",cat:"Philanthropy",verdict:"CLOSED",amount:"Discovery avg about £3.5M",timing:"n/a for Australia",stage:"Research",
+note:"Australia was NEVER eligible as lead applicant. Eligible host organisations are UK, Republic of Ireland, or low- and middle-income countries. From 29 October 2026 it narrows further to the UK plus LMICs in Africa, South Asia and South-East Asia. Whether Australians can be FUNDED co-applicants could not be verified from a primary source. Do not confuse with Wellcome Leap, which is open.",
+tags:["misconception"],url:"https://wellcome.org/what-we-do/our-work/eligibility-information-grant-applicants"},
+
+{n:"Health Investment Grants",org:"Ramaciotti Foundations",cat:"Philanthropy",verdict:"DIRECT",amount:"Up to A$100,000",timing:"Expect ~Mar to May 2027",stage:"Research",
+note:"The eligibility rule is an unusually exact match for a mid-career Australian: applicants UP TO LEVEL C, under 10 years post-doctoral experience, based in Australia at least 80% of the funding period. Institution must be NHMRC-administering plus ACNC-registered or DGR-endorsed. Direct application, no nomination needed. The 2026 round closed 29 May 2026. Diarise the 2027 opening now.",
+tags:["Australian","exact fit"],url:"https://www.perpetual.com.au/ramaciotti/awards-and-recipients"},
+
+{n:"Project Grants",org:"Cancer Council NSW",cat:"Philanthropy",verdict:"DIRECT",amount:"A$300,000 to A$600,000 / 3 yrs",timing:"Expect ~Mar 2028",stage:"Research",
+note:"A$200,000 per year maximum. CIA must reside in Australia, max 1.0 FTE, max two active Project Grants as CIA. At least one person with lived experience must be involved in the research, which structurally suits an equity or implementation framing. Health services research is explicitly in scope. The 2027 round has closed.",
+tags:["Australian","equity"],url:"https://www.cancercouncil.com.au/"},
+
+{n:"Research Fellowships and Translational Program Grants",org:"Cancer Institute NSW",cat:"Philanthropy",verdict:"DIRECT",amount:"Not published",timing:"Expect ~May 2027",stage:"Research",
+note:"The natural home for screening, equity and implementation work. Fellowships run in two streams: Early Career (0 to 5 years post-PhD) and Career Development (5 to 10 years post-PhD). Work must be at a NSW-based research organisation. Translational Program Grants fund multidisciplinary teams spanning at least two phases of the translational model. Round dates for 2026-27 were not published; contact CINSW-Grants@health.nsw.gov.au.",
+tags:["Australian","NSW"],url:"https://www.cancer.nsw.gov.au/research-and-data/grants/grant-opportunities"},
+
+{n:"Annual Grants Round",org:"Tour de Cure",cat:"Philanthropy",verdict:"DIRECT",amount:"A$10,000 to A$100,000",timing:"21 Aug 2026",urgent:1,stage:"Research",
+note:"Small, fast and low-overhead. Funds Australian cancer research, support and prevention with emphasis on emerging researchers. The prevention and support categories accommodate equity and implementation work that struggles in biomedical schemes. Applications via SmartyGrants.",
+tags:["Australian","imminent"],url:"https://tourdecure.com.au/apply-for-a-grant"},
+
+{n:"Snow Fellowship",org:"Snow Medical Research Foundation",cat:"Philanthropy",verdict:"PARTNER",amount:"Up to A$1M/yr for 8 yrs",timing:"Institutional nomination",stage:"Research",
+note:"Australia's largest medical research fellowship, roughly A$8M total. TWO HARD BARRIERS: institutional nomination only, with a maximum of two domestic candidates per institution, so positioning must start with the research office 12+ months out. And CLINICAL TRIALS ARE EXCLUDED; the focus must be basic biological processes, disease mechanisms, diagnosis, or new therapeutics and devices. An AI-diagnostics platform can be argued under diagnosis and devices; a screening-equity or policy program cannot. PhD held minimum 5 and maximum 10 years.",
+tags:["Australian","nomination"],url:"https://www.snowmedical.org.au/"},
+
+{n:"Senior Medical Research Fellowship",org:"Viertel Charitable Foundation",cat:"Philanthropy",verdict:"DIRECT",amount:"A$1,375,000 / 5 yrs",timing:"Opens ~Feb, closes 30 Apr",stage:"Research",
+note:"A$275,000 per year, up to two awarded annually at trustees' discretion. Applicants cannot hold another full-time salary grant. Post-PhD year limits and residency criteria are not on the summary page; check the guidelines PDF.",
+tags:["Australian","fellowship"],url:"https://www.eqt.com.au/"},
+
+{n:"Medical Research program",org:"Ian Potter Foundation",cat:"Philanthropy",verdict:"PARTNER",amount:"Minimum A$100,000",timing:"Opens 2 Feb 2027",stage:"Infrastructure",
+note:"EQUIPMENT AND CAPITAL ONLY. Does not fund project salaries or operating costs. Relevant via your institution's advancement office for imaging or GPU infrastructure, not as a personal research grant. Institutions holding an active Medical Research grant cannot apply. Maximum two applications per organisation per round.",
+tags:["Australian","equipment"],url:"https://www.ianpotter.org.au/what-we-support/program-areas/medical-research"},
+
+{n:"Invited Researcher pathway",org:"J-PAL (MIT)",cat:"Philanthropy",verdict:"PARTNER",amount:"Via initiative RFPs",timing:"Self-nomination open",stage:"Research",
+note:"Not a medtech funder. J-PAL funds randomised evaluations of social and development policy. POOR fit for device or algorithm development. GENUINELY GOOD fit for screening-equity and implementation research IF AND ONLY IF the design is an RCT: randomising invitation strategies for targeted screening, or AI-triage deployment across clinics. Access is gated to affiliates and invited researchers (700+ worldwide, three-year terms, self-nomination pathway exists). The US Health Care Delivery Initiative is US-only. Treat as a 2 to 3 year relationship play.",
+tags:["RCT","equity","long game"],url:"https://www.povertyactionlab.org/invited-researchers"},
+
+{n:"Science and Global Health R&D",org:"Coefficient Giving (formerly Open Philanthropy)",cat:"Philanthropy",verdict:"DIRECT",amount:"Over US$550M deployed",timing:"Rolling informal approach",stage:"Research",
+note:"RENAMED from Open Philanthropy in 2025, so search the new name. Accepts unsolicited approaches by email with a short description or a 1 to 2 page proposal, but sources most grants proactively. Assessed on importance, neglectedness and tractability rather than institutional credentials. Open in principle, low probability in practice for melanoma without an LMIC angle.",
+tags:["renamed"],url:"https://coefficientgiving.org/funds"},
+
+{n:"AI2050 Fellowships",org:"Schmidt Sciences",cat:"Philanthropy",verdict:"CLOSED",amount:"About US$300k to US$500k / 3 yrs",timing:"Nomination only",stage:"Research",
+note:"Selected via a closed nominations process; there is no application. Roughly 5 Senior and 15 Early Career awards annually. Non-US fellows do exist so eligibility is real, but there is no route in without a nomination. Schmidt Sciences' separate open AI-in-science programs are the realistic entry point.",
+tags:["AI","invitation only"],url:"https://ai2050.schmidtsciences.org/fellows/"},
+
+{n:"Science funding RFAs",org:"Chan Zuckerberg Initiative",cat:"Philanthropy",verdict:"CLOSED",amount:"Varies",timing:"None open Aug 2026",stage:"Research",
+note:"All 28 listed RFAs showed closed status. The AI pivot is toward cell and molecular biology, imaging and virtual-cell modelling at the bench, not clinical AI or cancer screening. Biohubs are US-sited and not open to external Australian PIs. Monitor rather than plan around.",
+tags:["AI","low fit"],url:"https://chanzuckerberg.com/science/science-funding/"},
+
+{n:"Challenge Programme",org:"Novo Nordisk Foundation",cat:"Philanthropy",verdict:"CLOSED",amount:"Up to DKK 75M",timing:"n/a for Australia",stage:"Research",
+note:"The 2026 Challenge Programme expanded beyond Denmark for the first time, but only to the European Schengen area, Ireland and the UK. Australia is not included. Other NNF schemes are Denmark-anchored; RECRUIT is designed to bring researchers INTO Denmark.",
+tags:["misconception"],url:"https://novonordiskfonden.dk/en/grants/"},
+
+{n:"Research grants",org:"Melanoma Research Foundation (US)",cat:"Philanthropy",verdict:"DIRECT",amount:"Not published",timing:"Varies",stage:"Research",
+note:"A direct MRA analogue. Award types include Team Science, Established Investigator (Associate Professor and above), Career Development, Pilot, Resident/Fellow and Medical Student Awards. Covers cutaneous and rare melanoma. 333 projects and over US$26M funded since 1998. UNVERIFIED whether non-US institutions are eligible: given MRA's openness it is worth a direct query to research@melanoma.org.",
+tags:["melanoma","verify"],url:"https://melanoma.org/research-science/research-grants-rfps/"},
+
+/* ============ EU, UK AND INTERNATIONAL ============ */
+{n:"Pillar II, Cluster 1 Health and Cancer Mission",org:"Horizon Europe",cat:"EU / UK / Intl",verdict:"CHANGING",amount:"Consortium scale",timing:"2027 calls open late 2026",urgent:1,stage:"Research",
+note:"Association negotiations CONCLUDED 9 June 2026 but treaty processes are NOT confirmed complete and no EU Council Decision authorising signature was locatable. The transitional rule in the General Annexes lets an applicant from a country negotiating association be treated as associated IF the agreement applies at grant signature, so you can position for 2027 calls opening NOW. Association covers Pillar II ONLY and for 2027 only, the final year of Horizon Europe. VERIFY that Cluster 1 (Health) is in scope: the EC press release names Clusters 4, 5 and 6 only, while Australian government sources name health first.",
+tags:["verify","position now"],url:"https://www.industry.gov.au/science-technology-and-innovation/international-collaboration/horizon-europe"},
+
+{n:"NHMRC-Horizon Europe scheme",org:"NHMRC",cat:"EU / UK / Intl",verdict:"DIRECT",amount:"Not published",timing:"2026 and 2027 rounds",stage:"Research",
+note:"The operative bridge right now. Funds the Australian side where you are a named Associated Partner in an EC application that is selected for Horizon Europe funding. Health topics explicitly in scope, including NCD prevention, climate and health, mental health, vaccines and regenerative medicine.",
+tags:["bridge","Australian"],url:"https://www.nhmrc.gov.au/funding/find-funding/nhmrc-horizon-europe-2026"},
+
+{n:"ERC Starting, Consolidator, Advanced and Plus grants",org:"European Research Council",cat:"EU / UK / Intl",verdict:"CLOSED",amount:"€1.5M to €10M; ERC Plus €7M",timing:"AdG 27 Aug, Plus 2 Sep 2026",stage:"Research",
+note:"Requires a host institution established in an EU Member State or Associated Country, and Pillar II association does NOT change this because ERC sits in Pillar I. ERC Plus requires at least 50% of working time physically in the EU. In practice this is a relocation instrument: you apply with a European host that agrees to engage you.",
+tags:["relocation"],url:"https://erc.europa.eu/"},
+
+{n:"Global Postdoctoral Fellowship",org:"Marie Sklodowska-Curie Actions",cat:"EU / UK / Intl",verdict:"PARTNER",amount:"EU-funded, 12-24 mo plus return",timing:"About 9 Sep 2026",urgent:1,stage:"Research",
+note:"The clever angle. The outgoing phase takes place in a non-associated third country and Australia qualifies. Restricted to EU nationals or long-term residents, so this is not a route for you personally. It IMPORTS a fully EU-funded European postdoc into your lab for up to two years at zero cost to your grants, and seeds a European relationship that later becomes a Pillar II consortium. Market yourself as an outgoing host on EURAXESS.",
+tags:["free postdoc","clever"],url:"https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"},
+
+{n:"EIC Accelerator",org:"European Innovation Council",cat:"EU / UK / Intl",verdict:"LOCAL ENTITY",amount:"Grant under €2.5M plus equity €0.5-10M",timing:"Cut-offs 2 Sep, 4 Nov 2026",stage:"Company",
+note:"Pillar III, so NOT covered by Australia's association now or in 2027. Requires an SME legally established in an EU Member State or associated country, TRL 6 to 8. Third-country applicants may apply only by incorporating an eligible entity with real operating substance first: a genuine corporate restructure, not a mailbox. The EIC assesses substance.",
+tags:["company","EU entity"],url:"https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en"},
+
+{n:"Innovative Health Initiative calls",org:"IHI (EU public-private partnership)",cat:"EU / UK / Intl",verdict:"CHANGING",amount:"Consortium scale",timing:"Per call",stage:"Translation",
+note:"Today: unfunded associated partner only, and cannot coordinate. Canada's Pillar II association text includes 'the institutionalised European partnerships', so if Australia's mirrors it, IHI opens to Australian funding from 2027. IHI calls regularly cover AI and digital diagnostics, imaging biomarkers and clinical decision support, making this a high-value low-competition entry point if it opens. Expect topic-level carve-outs in the first year.",
+tags:["AI","verify"],url:"https://www.ihi.europa.eu/"},
+
+{n:"EIT Health calls and Headstart",org:"EIT Health",cat:"EU / UK / Intl",verdict:"CLOSED",amount:"Membership-gated",timing:"Annual calls",stage:"Company",
+note:"Non-associated third countries are capped: Switzerland, for comparison, cannot receive above €60,000. Funding requires acceding to the EIT Health legal framework and paying membership fees that scale with organisation size. Realistic route is as a non-funded clinical validation site to an EIT Health-funded consortium.",
+tags:["low fit"],url:"https://eithealth.eu/"},
+
+{n:"Project co-lead (international)",org:"UKRI and MRC",cat:"EU / UK / Intl",verdict:"PARTNER",amount:"Up to 30% of total project fEC",timing:"Per council cycle",stage:"Research",
+note:"The best UK money realistically available. An overseas researcher can be a NAMED PROJECT CO-LEAD on a UKRI grant, funded to 30% of full economic cost including your own salary and 100% of support-staff salaries employed by your organisation. Overseas estates and indirect costs are ineligible. Applies to MRC, EPSRC, BBSRC and others but NOT Innovate UK. Strategically this puts you on a UK research council grant as a named co-lead rather than a collaborator, which reads far better on a fellowship track record.",
+tags:["underused","track record"],url:"https://www.ukri.org/publications/ukri-project-co-lead-international/"},
+
+{n:"Discovery research grants",org:"Worldwide Cancer Research",cat:"EU / UK / Intl",verdict:"DIRECT",amount:"Ceiling unverified",timing:"2027 round",stage:"Research",
+note:"'We fund discovery research into any type of cancer, anywhere in the world.' Over 2,000 projects funded globally since 1979 and Australian-based researchers are eligible. The 2026 round closed, capped at 500 applications. Discovery framing required: a purely clinical or implementation AI study is likely out of scope, while mechanistic or biomarker-discovery melanoma work fits.",
+tags:["UK","discovery"],url:"https://www.worldwidecancerresearch.org/for-researchers/"},
+
+{n:"Research Grants, Program and Early Career",org:"Human Frontier Science Program",cat:"EU / UK / Intl",verdict:"DIRECT",amount:"3 years, amount unverified",timing:"Expect ~Feb to Mar 2027",stage:"Research",
+note:"A notable omission from most Australian funding lists. Australia is one of 37 HFSP member countries and an AUSTRALIAN CAN BE PRINCIPAL APPLICANT. Teams must be international, 2 to 4 independent group leaders, normally one lab per country. CRITICAL SCOPE CAVEAT: HFSP funds innovative basic research and explicitly does NOT support applied research including clinical studies, drug development, or disease diagnosis and treatment projects. A melanoma-detection validation study is out of scope. Fundamental work on pigmented lesion optics or novel representation learning could be framed in.",
+tags:["basic science","scope caveat"],url:"https://www.hfsp.org/funding/hfsp-funding/research-grants"},
+
+{n:"Core schemes",org:"Cancer Research UK",cat:"EU / UK / Intl",verdict:"PARTNER",amount:"Discovery award up to £2.5M / 5 yrs",timing:"Outline 29 Sep 2026",stage:"Research",
+note:"Applicants must be based in a UK university, medical school, hospital or research institution; a UK host is mandatory. International and commercial organisations may be co-investigators and collaborators but cannot be lead applicants. Note that Cancer Grand Challenges, which CRUK co-runs, is a completely different and genuinely open vehicle.",
+tags:["UK host required"],url:"https://www.cancerresearchuk.org/for-researchers"},
+
+{n:"Global Health Research programmes",org:"NIHR",cat:"EU / UK / Intl",verdict:"CLOSED",amount:"Varies",timing:"n/a for Australia",stage:"Research",
+note:"Lead organisation must be UK-based, and several programmes require England-based. NIHR Global Health funding is available to UK institutions and to LMICs eligible for ODA funding. Australia is high-income and non-ODA-eligible, so there is no NIHR Global Health route for an Australian institution.",
+tags:["ODA restricted"],url:"https://www.nihr.ac.uk/"},
+
+{n:"Biomedical Catalyst and Smart Grants",org:"Innovate UK",cat:"EU / UK / Intl",verdict:"LOCAL ENTITY",amount:"£500,000 to £2M",timing:"Smart Grants PAUSED",stage:"Company",
+note:"Requires a UK-registered business as lead. International organisations may participate only as non-funded partners or subcontractors, and cannot receive Innovate UK grant funding. Smart Grants have been PAUSED since January 2025 pending a review, with no successor named. The UKRI international co-lead policy does NOT apply to Innovate UK.",
+tags:["UK entity"],url:"https://apply-for-innovation-funding.service.gov.uk/competition/search"},
+
+{n:"ASPIRE Advanced International Collaborative Research",org:"AMED (Japan)",cat:"EU / UK / Intl",verdict:"PARTNER",amount:"Japan side only",timing:"Per round",stage:"Research",
+note:"Australia is a listed partner region and cancer is explicitly in scope for large-scale collaborative joint research. AMED funds the Japanese side; the Australian partner needs NHMRC, ARC or institutional money. Worth noting that Japan is ALSO associating to Horizon Europe Pillar II, so from 2027 a Japan-Australia axis inside an EU Cluster 1 consortium becomes fundable for the first time.",
+tags:["2027 angle"],url:"https://www.amed.go.jp/en/program/list/20/01/009.html"},
+
+{n:"NSW-Israel Science and Technology R&D Program",org:"Investment NSW and Israel Innovation Authority",cat:"EU / UK / Intl",verdict:"DIRECT",amount:"NSW side up to A$250,000",timing:"Last call closed 2018",stage:"Company",
+note:"Dormant but worth a direct enquiry. NSW companies partner with Israeli companies; the NSW side offers a one-off grant with matching co-contribution, at least 50% on R&D. Given a strong NSW Ministry of Health network, advocating for a revived call in health AI is a plausible and well-positioned ask rather than a cold approach. Note the Israel Innovation Authority's own bilateral program requires an Israeli company and does not fund the foreign partner.",
+tags:["dormant","advocacy"],url:"https://innovationisrael.org.il/en/"},
+
+{n:"CIHR and NFRF International",org:"Canada",cat:"EU / UK / Intl",verdict:"CLOSED",amount:"n/a",timing:"n/a",stage:"Research",
+note:"CIHR funds may only be administered by Canadian institutions. Australia is not on the 2026 NFRF International Joint Initiative partner-country list. NFRF partner sets change annually, so an annual check is worthwhile.",
+tags:["closed"],url:"https://cihr-irsc.gc.ca/e/36770.html"},
+
+{n:"CEPI, Unitaid, Global Fund, WHO TDR",org:"Multilateral",cat:"EU / UK / Intl",verdict:"CLOSED",amount:"n/a",timing:"n/a",stage:"Research",
+note:"No genuine path for melanoma, skin cancer or dermatological AI. Disease scope excludes oncology entirely: CEPI is epidemic preparedness, Unitaid is HIV/TB/malaria/hepatitis market shaping, the Global Fund is HIV/TB/malaria financing, WHO TDR is tropical and poverty-related infectious disease. The only constructible path would be reframing skin-cancer AI as an LMIC access problem, which is a different research programme rather than a repackaging.",
+tags:["closed"],url:"https://cepi.net/calls-for-proposals"},
+
+/* ============ AUSTRALIAN GOVERNMENT ============ */
+{n:"AEA Ignite",org:"Australia's Economic Accelerator",cat:"Australian Gov",verdict:"DIRECT",amount:"Up to A$500,000",timing:"Round 3 closed, more expected",stage:"Proof of concept",
+note:"University-led proof of concept, TRL 3 to 5, 3 to 12 months. Medical science has been one of the largest categories: Round 2 saw 174 grants from 838 applications across 35 universities, with 40 grants in medical science. Over A$72.5 million in new Ignite grants announced. Note the naming history: the original stream was AEA Seed, and prior Seed funding counts toward the A$500k Ignite cap.",
+tags:["university","proof of concept"],url:"https://www.aea.gov.au/researcher-applicant/grants"},
+
+{n:"AEA Innovate",org:"Australia's Economic Accelerator",cat:"Australian Gov",verdict:"DIRECT",amount:"Up to A$5,000,000",timing:"2026 EOIs closed 29 Jun",stage:"Proof of scale",
+note:"TRL 5 to 7, up to 24 months, proof of scale. University-led (Table A or B) with an industry partner that must contribute at least 50% of total project budget in cash or in kind. Two-stage: EOI then invited full application.",
+tags:["university","industry","large"],url:"https://www.aea.gov.au/researcher-applicant/grants"},
+
+{n:"Frontier Health and Medical Research",org:"MRFF",cat:"Australian Gov",verdict:"DIRECT",amount:"Up to A$25,000,000",timing:"Rolling EOI to 31 Mar 2027",stage:"Research",
+note:"A$490 million over 10 years for moonshot research programs. Two-stage: rolling EOIs with assessment rounds around September 2026 and March 2027, then invited full applications. The largest single Australian program available.",
+tags:["open now","large"],url:"https://www.health.gov.au/our-work/mrff"},
+
+{n:"Early to Mid-Career Researchers Initiative",org:"MRFF",cat:"Australian Gov",verdict:"DIRECT",amount:"Up to A$4M per grant",timing:"19 Aug 2026",urgent:1,stage:"Research",
+note:"A$44.8 million total across three streams, including Stream 3 for EMCRs leading co-funded translation projects, which is the commercialisation-adjacent stream. Institutional internal deadlines have typically already passed by this point.",
+tags:["imminent","EMCR"],url:"https://www.health.gov.au/our-work/mrff"},
+
+{n:"Genomics Health Futures Mission",org:"MRFF",cat:"Australian Gov",verdict:"DIRECT",amount:"A$8M pool",timing:"19 Aug 2026",urgent:1,stage:"Research",
+note:"Opened 18 March 2026. Listed on the MASC Trials melanoma funding register as relevant to skin cancer researchers.",
+tags:["imminent","genomics"],url:"https://www.health.gov.au/our-work/mrff"},
+
+{n:"International Clinical Trial Collaborations",org:"MRFF",cat:"Australian Gov",verdict:"DIRECT",amount:"A$3M pool",timing:"16 Sep 2026",urgent:1,stage:"Clinical",
+note:"Opened 11 February 2026. Supports Australian participation in international clinical trials.",
+tags:["trials"],url:"https://www.health.gov.au/our-work/mrff"},
+
+{n:"Development Grants",org:"NHMRC",cat:"Australian Gov",verdict:"CLOSED",amount:"No cap",timing:"Will not run in 2026",stage:"Proof of concept",
+note:"The traditional proof-of-concept commercialisation scheme is PAUSED under review. The NHMRC CEO stated it will not proceed in 2026 while the review runs, and the roughly A$16.6 million was redirected to the 2026 Ideas Grants round. The 2025 round was the last completed one. Do not present this as a live option.",
+tags:["paused"],url:"https://www.nhmrc.gov.au/funding/find-funding/development-grants"},
+
+{n:"CRC Projects (CRC-P)",org:"Dept of Industry, Science and Resources",cat:"Australian Gov",verdict:"PARTNER",amount:"A$100,000 to A$3,000,000",timing:"Round 19 closed",stage:"Company",
+note:"Industry-led: the lead applicant must be an SME, with a second industry partner of any size plus at least one Australian research organisation. Up to 3 years, matched at least 1:1 in cash or in kind. Built for exactly the university, hospital and company triangle. Its IP framework separating background IP from project IP is the cleanest model available and worth copying even outside a CRC.",
+tags:["company","IP model"],url:"https://business.gov.au/grants-and-programs/cooperative-research-centres-projects-crcp-grants"},
+
+{n:"CRC Programme (full CRCs)",org:"Dept of Industry, Science and Resources",cat:"Australian Gov",verdict:"PARTNER",amount:"Up to 50% of project costs",timing:"Round 27 Stage 2 closes 17 Sep 2026",stage:"Consortium",
+note:"3 to 10 year collaborations with no set dollar cap, matched cash and in-kind. Requires at least 3 Australian industry organisations and 2 Australian research organisations, plus a PhD-inclusive education program. Round 27 is closed to new entrants; four applications were shortlisted for Stage 2. Funding commences July 2027.",
+tags:["large","consortium"],url:"https://business.gov.au/grants-and-programs/cooperative-research-centres-crc-grants"},
+
+{n:"Medical Devices Fund",org:"NSW Health, Office for Health and Medical Research",cat:"Australian Gov",verdict:"DIRECT",amount:"A$500,000 to A$5,000,000",timing:"Target Round 15 ~May 2027",stage:"Company",
+note:"Still running and healthy: A$7.4 million to four recipients announced May 2026, including AI maternal-health platform Baymatob and clinical decision software Kraken Coding. Over A$102 million to 56 technologies since 2012. TRL 3 and up, two-stage with expert panel and mentoring. Whether software, AI and diagnostics explicitly qualify is not stated on the fund page, though historically SaMD has been in scope. Verify directly.",
+tags:["NSW","large","verify"],url:"https://www.medicalresearch.nsw.gov.au/medical-devices-fund"},
+
+{n:"Translational Research Grants Scheme",org:"NSW Health",cat:"Australian Gov",verdict:"DIRECT",amount:"Up to A$500,000",timing:"Expect Round 11 ~Feb 2027",stage:"Translation",
+note:"An underused pathway. The Chief Investigator must be a medical, nursing, allied health or population health practitioner EMPLOYED BY AN ELIGIBLE NSW HEALTH ORGANISATION (LHDs, specialty networks, NSW Ambulance, NSW Health Pathology) throughout the grant. So this runs via a hospital host, not a university host. A clinical appointment unlocks a pathway most academic colleagues cannot access. Two-stage; each organisation may advance up to three full applications.",
+tags:["NSW","clinician","underused"],url:"https://www.nsw.gov.au/grants-and-funding/translational-research-grants-scheme"},
+
+{n:"MVP Ventures Program",org:"Investment NSW",cat:"Australian Gov",verdict:"DIRECT",amount:"A$20,000 to A$75,000",timing:"Closed, no reopening date",stage:"Company",
+note:"COMPANY-LED ONLY. Must be incorporated in Australia, NSW-headquartered, turnover under A$400,000 across the prior 3 years, 10 or fewer FTE, and must hold IP or rights to commercialise. Universities, sole traders and partnerships explicitly ineligible. Stream 1 max A$50,000 with 50% co-contribution; Stream 2 max A$75,000 with 25% co-contribution for women-owned, regional and Aboriginal or Torres Strait Islander businesses. TRL 3 to 9.",
+tags:["NSW","company"],url:"https://business.gov.au/grants-and-programs/minimum-viable-product-mvp-ventures-nsw"},
+
+{n:"Industry Growth Program",org:"Dept of Industry, Science and Resources",cat:"Australian Gov",verdict:"CLOSED",amount:"A$50,000 to A$5,000,000",timing:"Paused 12 May 2026",stage:"Company",
+note:"Successor to Accelerating Commercialisation. PAUSED to new applications while the government considers better targeted grant rounds, with A$47.4 million uncommitted funding redirected. Advisory services and existing agreements continue. Company-led only: universities and individuals not eligible, and applicants must align with National Reconstruction Fund priorities including medical science.",
+tags:["paused","company"],url:"https://business.gov.au/grants-and-programs/industry-growth-program"},
+
+{n:"R&D Tax Incentive",org:"ATO and AusIndustry",cat:"Australian Gov",verdict:"DIRECT",amount:"43.5% refundable offset",timing:"Ongoing entitlement",stage:"Company",
+note:"For companies with aggregated turnover under A$20 million: company tax rate plus an 18.5% premium, so 43.5% for a 25% base-rate entity, paid as a CASH REFUND if in tax loss. Often the largest non-dilutive funding a loss-making spin-out has, and the single most useful instrument for funding your own patent prosecution. Entitlement-based, not competitive. Above A$20M turnover it becomes non-refundable and tiered by R&D intensity.",
+tags:["company","non-dilutive","best fit"],url:"https://www.ato.gov.au/"},
+
+{n:"National Reconstruction Fund",org:"NRF Corporation",cat:"Australian Gov",verdict:"PARTNER",amount:"Debt and equity, not grants",timing:"Ongoing",stage:"Growth",
+note:"A$15 billion, with medical science a named priority area covering medical devices, medicines, vaccines and PPE manufacturing. Provides investment finance, not grants. Deploys largely through fund managers and large direct transactions rather than to early-stage startups: its flagship medical science deployment was a A$150 million commitment to Brandon Capital's Fund Six. A discrete medical science allocation is not published; do not rely on commonly cited figures.",
+tags:["debt/equity","later stage"],url:"https://www.nrf.gov.au/"},
+
+{n:"Priority-driven Collaborative Cancer Research Scheme",org:"Cancer Australia",cat:"Australian Gov",verdict:"DIRECT",amount:"Varies by partner",timing:"Via NHMRC and partner cycles",stage:"Research",
+note:"A co-funding scheme where Cancer Australia partners with funding bodies including Cancer Councils and disease foundations. Over A$110 million awarded to date. Applications typically flow through NHMRC or partner processes rather than a standalone portal. Current round status, amounts and dates were not verifiable because the page blocks automated retrieval.",
+tags:["Australian","verify"],url:"https://www.canceraustralia.gov.au/research-grants/grants-and-funding/priority-driven-collaborative-cancer-research-scheme"},
+
+{n:"Global Science and Technology Diplomacy Fund",org:"Dept of Industry, Science and Resources",cat:"Australian Gov",verdict:"DIRECT",amount:"A$100,000 to A$1,000,000",timing:"Round 2 EOIs closed",stage:"Research",
+note:"Strategic Element supports international science and technology collaboration, delivered by ATSE and the Australian Academy of Science. Register at glodip.org.au for Round 3.",
+tags:["international"],url:"https://glodip.org.au/"},
+
+{n:"Grants-in-Aid",org:"Cancer Council Victoria",cat:"Australian Gov",verdict:"PARTNER",amount:"Up to A$360,000 / 2-3 yrs",timing:"Full apps closed 1 Sep 2026",stage:"Research",
+note:"Up to 12 grants: six general at max A$120,000 per year, six targeted including mesothelioma, non-Hodgkin lymphoma and clinical trials addressing disability and mental health barriers. Scope covers prevention, detection, treatment and care. Assessment weights research quality 40% and community involvement 25%. UNVERIFIED whether a Victorian residency requirement applies to the CI; most state Cancer Council schemes are state-restricted, so likely closed to a NSW-based lead.",
+tags:["Victoria","verify"],url:"https://www.cancervic.org.au/research/grants/project-grants/grants-in-aid"},
+
+{n:"Emerging Researcher Grants",org:"Cure Cancer Australia",cat:"Australian Gov",verdict:"DIRECT",amount:"A$100,000 to A$200,000",timing:"Check current cycle",stage:"Research",
+note:"Two streams: 0 to 3 years post-PhD up to A$100,000 for one year, and 4 to 7 years post-PhD up to A$200,000 over two years. Applicants cannot hold competitive grants above the corresponding annual threshold as CIA. All cancer types. Includes mentoring and an annual Research Symposium. Note the 7-year post-PhD ceiling may place a mid-career researcher outside eligibility.",
+tags:["ECR","verify"],url:"https://www.curecancer.com.au/projects-and-impact/apply-for-a-grant"}
+];

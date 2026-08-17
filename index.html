@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Funding Compass: grants, accelerators and investors for Australian medical research</title>
+<meta name="description" content="A verified directory of grants, accelerators and investors for Australian clinician-researchers working in melanoma, skin cancer and health AI.">
+<link rel="stylesheet" href="assets/style.css">
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F5CBLBM7L3"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-F5CBLBM7L3');
+</script>
+</head>
+<body>
+
+<div class="topbar"><div class="topbar-in">
+  <div class="brand">
+    <h1>Funding Compass</h1>
+    <span class="sub">Grants, accelerators and investors for Australian medical research</span>
+  </div>
+  <nav class="tabs">
+    <a href="index.html" class="on">Overview</a>
+    <a href="grants.html">Grants</a>
+    <a href="accelerators.html">Accelerators</a>
+    <a href="investors.html">Investors</a>
+    <a href="deadlines.html">Deadlines</a>
+    <a href="playbook.html">Playbook</a>
+    <a href="methodology.html">Method &amp; sources</a>
+  </nav>
+</div></div>
+
+<div class="wrap">
+  <section class="hero">
+    <h2>Most Australian research never gets funded past the filing stage.</h2>
+    <p>Not because the science is weak. Because filing a patent costs A$100 and prosecuting one to grant across five jurisdictions costs more than A$250,000, and almost nobody plans for the gap between those two numbers.</p>
+    <p>This directory maps what is actually available to an Australian clinician-researcher or academic founder: every scheme carries an eligibility verdict, a current status, and an honest note about what it will and will not fund. Compiled August 2026.</p>
+
+    <div class="stats">
+      <div class="stat"><b id="s-total">0</b><span>opportunities</span></div>
+      <div class="stat"><b id="s-open">0</b><span>open to Australians</span></div>
+      <div class="stat"><b id="s-urgent">0</b><span>closing soon</span></div>
+      <div class="stat"><b id="s-closed">0</b><span>commonly misread as open</span></div>
+    </div>
+    <div class="legend">
+      <span><b>DIRECT / OPEN</b> apply as lead</span>
+      <span><b>PARTNER / WARM INTRO</b> join, usually unfunded or gated</span>
+      <span><b>LOCAL ENTITY</b> must incorporate there</span>
+      <span><b>CLOSED</b> often assumed open, isn't</span>
+    </div>
+  </section>
+
+  <div class="prose">
+    <h2>Start here</h2>
+    <p>If you have twenty seconds, three things in this directory are worth knowing before anything else.</p>
+
+    <div class="callout">
+      <p><b>The US Department of Defense funds melanoma research, and Australian institutions can apply as the lead.</b> The FY26 Melanoma Research Program appropriation is US$40 million, and the eligibility language expressly includes foreign organisations. Two mechanisms remain open with pre-applications due 22 September 2026. It is the most foreign-open large biomedical funder in the world, and almost no Australian researcher knows it exists.</p>
+    </div>
+
+    <div class="callout">
+      <p><b>NIH is the opposite of what people assume.</b> Foreign indirect cost recovery is capped at 8% against a typical domestic rate above 50%, and the foreign subaward route was abolished in 2025 and replaced with a linked-award structure. If a US collaborator offers you a subaward on a new NIH application, they are working from outdated information.</p>
+    </div>
+
+    <div class="callout">
+      <p><b>The Australian map was redrawn this year.</b> NHMRC Development Grants will not run in 2026. The Industry Growth Program was paused in May. MTPConnect is now AUScelerate. LaunchVic and Breakthrough Victoria merged into Innovation Victoria in July. Half of what you will read elsewhere is out of date.</p>
+    </div>
+
+    <h2>How to use this</h2>
+    <p>The four directory tabs each answer a different question.</p>
+    <ul>
+      <li><b><a href="grants.html">Grants</a></b> is non-dilutive money: government, philanthropy and international schemes. Filter by whether you can lead, by category, and by stage.</li>
+      <li><b><a href="accelerators.html">Accelerators</a></b> covers programs that trade support, data or regulatory guidance rather than cash, plus the ones that write cheques. The most useful filter here is whether a program takes equity.</li>
+      <li><b><a href="investors.html">Investors</a></b> maps venture capital, angel groups, university funds and corporate venture arms, with an honest verdict on whether there is an open door or whether you need a warm introduction.</li>
+      <li><b><a href="deadlines.html">Deadlines</a></b> is everything with a date, ordered by urgency.</li>
+    </ul>
+    <p>The <b><a href="playbook.html">Playbook</a></b> tab is the decision guide: what to do at each stage, and specifically what happens when the prosecution bill arrives and your institution declines to pay it.</p>
+
+    <h2>A caution about how this was built</h2>
+    <p>Every entry was verified against a primary source where one exists. Where a figure could not be confirmed, the entry says so rather than guessing. Where a widely repeated claim turned out to be wrong, the entry says that too, because the wrong version is often the one circulating.</p>
+    <p>Scheme statuses change constantly and several major ones changed in the twelve months before this was compiled. <b>Re-verify anything with a deadline before you act on it.</b> The <a href="methodology.html">method and sources</a> page lists what could not be verified and what to check.</p>
+  </div>
+</div>
+
+<footer><div class="wrap">
+  <p>Compiled August 2026 by Dr Yagiz Alp Aksoy, Senior Research Fellow, The Daffodil Centre, University of Sydney.</p>
+  <p>This directory is general information gathered from public sources. It is not legal, financial or investment advice. Verify eligibility and deadlines directly with each funder before applying.</p>
+</div></footer>
+
+<script src="assets/data-grants.js"></script>
+<script src="assets/data-accelerators.js"></script>
+<script src="assets/data-investors.js"></script>
+<script>
+const ALL = [].concat(window.GRANTS, window.ACCELERATORS, window.INVESTORS);
+const openV = ['DIRECT','OPEN'];
+document.getElementById('s-total').textContent  = ALL.length;
+document.getElementById('s-open').textContent   = ALL.filter(x=>openV.includes(x.verdict)).length;
+document.getElementById('s-urgent').textContent = ALL.filter(x=>x.urgent).length;
+document.getElementById('s-closed').textContent = ALL.filter(x=>x.verdict==='CLOSED').length;
+</script>
+</body>
+</html>
