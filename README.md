@@ -14,9 +14,9 @@ The site is served by GitHub Pages from this repository, at:
 https://panaceainsights.github.io/MIAGrants/
 ```
 
-Deployment is automatic. `.github/workflows/deploy-pages.yml` publishes the repository root to Pages on every push, so editing a file and pushing is the whole workflow. A run takes about a minute; progress is under the **Actions** tab.
+Deployment is automatic. Pages serves the site from the `gh-pages` branch, and `.github/workflows/publish.yml` mirrors the working branch there on every push. Editing a file and pushing is the whole workflow; the site updates in about a minute. Progress is under the **Actions** tab.
 
-Pages must have its **Source** set to **GitHub Actions** (Settings, then Pages). The workflow sets this itself on its first successful run.
+Treat `gh-pages` as generated output. Never edit it directly, since each publish overwrites it.
 
 ### Generate the real QR code
 
@@ -63,7 +63,7 @@ make-qr.py            QR code generator for the slide
 .nojekyll             Tells GitHub Pages to serve files as-is
 grants-standalone.html  The Grants page as a single self-contained file, CSS
                         and data inlined. Useful offline or on a USB stick
-.github/workflows/deploy-pages.yml   Publishes the site on every push
+.github/workflows/publish.yml        Mirrors the site to gh-pages on push
 ```
 
 ---
