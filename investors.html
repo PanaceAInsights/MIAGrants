@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investors | Funding Compass</title>
+<meta name="description" content="VCs, angel groups, university funds, corporate venture arms and alternative capital. The verdict column tells you whether there is an open door or whether you need a warm introduction.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="topbar"><div class="topbar-in">
+  <div class="brand">
+    <h1>Funding Compass</h1>
+    <span class="sub">Grants, accelerators and investors for Australian medical research</span>
+  </div>
+  <nav class="tabs">
+    <a href="index.html">Overview</a>
+    <a href="grants.html">Grants</a>
+    <a href="accelerators.html">Accelerators</a>
+    <a href="investors.html" class="on">Investors</a>
+    <a href="deadlines.html">Deadlines</a>
+    <a href="playbook.html">Playbook</a>
+    <a href="methodology.html">Method &amp; sources</a>
+  </nav>
+</div></div>
+
+<div class="wrap">
+  <section class="hero" style="padding:30px 0 8px">
+    <h2>Venture capital, angels and equity</h2>
+    <p>VCs, angel groups, university funds, corporate venture arms and alternative capital. The verdict column tells you whether there is an open door or whether you need a warm introduction.</p>
+  </section>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search name, funder, amount, keyword&hellip;" autocomplete="off">
+    <div class="chiprow" id="cat-chips"></div>
+    <div class="chiprow" id="ver-chips"></div>
+    <div class="chiprow" id="tag-chips"></div>
+    <div class="resultbar">
+      <span><b id="count">0</b> shown</span>
+      <span>
+        <label for="sort">Sort</label>
+        <select id="sort">
+          <option value="default">Default order</option>
+          <option value="open">Most accessible first</option>
+          <option value="urgent">Closing soon first</option>
+          <option value="name">Name A to Z</option>
+        </select>
+        <button class="chip reset" id="reset" type="button">Clear filters</button>
+      </span>
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>Nothing matches those filters. Try clearing one.</div>
+</div>
+
+<footer><div class="wrap">
+  <p>Compiled August 2026. Verify eligibility and deadlines directly with each funder before applying. See <a href="methodology.html">method and sources</a> for what could not be verified.</p>
+</div></footer>
+
+<script src="assets/data-investors.js"></script>
+<script src="assets/app.js"></script>
+<script>initDirectory({data: window.INVESTORS, verdictLabel: "Access"});</script>
+</body>
+</html>
